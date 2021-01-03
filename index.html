@@ -34,10 +34,10 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container clearfix">                       
-            <img class="profile-image img-fluid float-left rounded-circle" src="assets/images/profile1.png" alt="profile image" />
+            <img style="height: 190px;" class="profile-image img-fluid float-left rounded-circle" src="assets/images/Profile_image.jpg" alt="profile image" />
             <div class="profile-content float-left">
                 <h1 class="name">Viral Patel</h1>
-                <h2 class="desc">Data is Everything!!<!DOCTYPE html>
+            <!--    <h2 class="desc">Data is Everything!!<!DOCTYPE html>-->
                 <h3 class="desc">Machine Learning and Data Science Enthusiast<!DOCTYPE html>
                 <html lang="en">
                 <head>
@@ -52,12 +52,16 @@
                 <ul class="social list-inline">
                    
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/viralpatel2020/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    
                     <li class="list-inline-item last-item"><a href="https://github.com/vir007" target="_blank"><i class="fab fa-github-alt"></i></a></li>      
                                     
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" href="assets/VIRAL_PATEL_RESUME.pdf" target="_blank"><i class="fas fa-paper-plane"></i> Download Resume</a>    
-            <a class="btn btn-cta-primary float-right" href="assets/VIRAL_PATEL_UNOFFICIAL_TRANSCRIPT.pdf" target="_blank"><i class="fas fa-paper-plane"></i> Unofficial Transcript</a>          
+            
+                <a style="margin-right: 20px;" class="btn btn-cta-primary float-right" href="assets/VIRAL_PATEL_RESUME.pdf" target="_blank"><i class="fas fa-paper-plane"></i> Download Resume</a>    
+            
+                <a style="margin-right: 20px;" class="btn btn-cta-primary float-right" href="assets/VIRAL_PATEL_UNOFFICIAL_TRANSCRIPT.pdf" target="_blank"><i class="fas fa-paper-plane"></i> Unofficial Transcript</a>          
+            
         </div><!--//container-->
     </header><!--//header-->
     
@@ -68,7 +72,11 @@
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Hello There ! Glad to have you on my portfolio site. I'm persuing Master of Systems Science at University of Ottawa. I have completed my bachelors in Computer Engineering from India. My major interest and recent work is related to Machine Learning and Data Science. In this site you will find information about my skills, projects and internships. Thank You !</p>
+                            <p>Hello There ! </br>
+                                Glad to have you on my portfolio site. </br>
+                                I will be graduating from University of Ottawa with Master of Systems Science program . </br>
+                                I have completed my bachelors in Computer Engineering. </br>
+                                My major Projects and Internships completed in Software Development, Machine Learning and Data Science domains. </br>On this site you will find detailed information about my skills, projects and internships. Thank You !</p>
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -82,50 +90,62 @@
                             <div class="item featured text-center">
                                 
                                 <div class="featured-image ">
-                                    <a href="#" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="project name" />
+                                    <a href="https://github.com/vir007/Waste-advisor-application" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/Waste Navigator Logo.png" alt="project name" />
                                     </a>
                                    
                                 </div>
                                 
-                                <h3 class="title mb-3"><a href="#" target="_blank">Classification and Mapping of Lunar Basalt Units using Machine Learning Techniques</a></h3>
+                                <h3 class="title mb-3"><a href="https://github.com/vir007/Waste-advisor-application" target="_blank">Waste Advisor Application</a></h3>
                                     
                                 <div class="desc text-left">                                    
-                                    <p><i class="fas fa-arrow-right"></i> Applied Supervised and Unsupervised Classification Methods of Machine Learning on Dataset of Chandrayan-1 retrieved from NASA. 
-                                        <br><i class="fas fa-arrow-right"></i> Dataset: Multispectral data of Moon surface.
-                                        <br><i class="fas fa-arrow-right"></i> Outcome: Classified Moon surface into 16 different class using SVM method where each class has a unique feature based on chemical composition</p>
+                                    <p><i class="fas fa-arrow-right"></i> Developed “Waste Advisor” android based application which used to classify the waste. 
+                                        <br><i class="fas fa-arrow-right"></i> Created Classification model trained using Teachable machine having 80% accuracy on Training dataset of 30k Images
+                                        <br><i class="fas fa-arrow-right"></i> Deployed model using Starlette to create RESTful API, Containerized with Docker and hosted on GCP’s free tier. </p>
                                 </div><!--//desc-->         
                               <!--  <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>                 -->
                             </div><!--//item-->
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Classification and Mapping of Lunar Basalt Units using Machine Learning Techniques</a></h3>
+                                    <p class="mb-2"><i class="fas fa-arrow-right"></i> Applied Supervised and Unsupervised Classification Methods of Machine Learning on Dataset of Chandrayan-1 retrieved from NASA. 
+                                        <br><i class="fas fa-arrow-right"></i> Dataset: Multispectral data of Moon surface.
+                                        <br><i class="fas fa-arrow-right"></i> Outcome: Classified Moon surface into 16 different class using SVM method where each class has a unique feature based on chemical composition</p>
+                                 <!--   <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://github.com/vir007/Quantitative-calculation-of-energy-consumption-of-residential-buildings" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/Python-language.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="#" target="_blank">Effective Quantitative Calculation of Energy Consumption of Residential Buildings Using Statistical Machine Learning Method (Python, SKlearn, Numpy, Pandas, Keras)</a></h3>
+                                    <h3 class="title"><a href="https://github.com/vir007/Quantitative-calculation-of-energy-consumption-of-residential-buildings" target="_blank">Effective Quantitative Calculation of Energy Consumption of Residential Buildings Using Statistical Machine Learning Method (Python, SKlearn, Numpy, Pandas, Keras)</a></h3>
                                     <p class="mb-2"><i class="fas fa-arrow-right"></i> The results of this study endorse the possibility of using machine learning software to approximate building parameters as a simple and reliable solution, given that the required application is identical to the data used to train the mathematical model in the first place.
                                         <br><i class="fas fa-arrow-right"></i> We contemplate using the proposed method as an easy, off - the-shelf solution to obtain accurate estimates of heating load and cooling load.</p>
                                  <!--   <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <a class="col-md-4 col-12" href="https://github.com/vir007/NotesApp" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/NotesApp.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="#" target="_blank">NotesApp (Android Studio, Java)</a></h3>
+                                    <h3 class="title"><a href="https://github.com/vir007/NotesApp" target="_blank">NotesApp (Android Studio, Java)</a></h3>
                                     <p class="mb-2"><i class="fas fa-arrow-right"></i> Developed a Notes taking Application for Android device.
                                         <br><i class="fas fa-arrow-right"></i> Features: Share Note, Search Content in a Particular Note.</p>
                             <!--        <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <a class="col-md-4 col-12" href="https://github.com/vir007/Car-Rental-Simulation" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/Java.jpg" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="#" target="_blank">SM Rentals (JAVA, AOSimulationModel, Eclipse)</a></h3>
+                                    <h3 class="title"><a href="https://github.com/vir007/Car-Rental-Simulation" target="_blank">SM Rentals (JAVA, AOSimulationModel, Eclipse)</a></h3>
                                     <p class="mb-2"><i class="fas fa-arrow-right"></i> Developed a Program for a Rental Company who Provides Car Rentals to Airplane Clientele.
                                         <br><i class="fas fa-arrow-right"></i> Achieved an average 90% Customer Satisfaction rate with Service Time using Heuristic Strategy.</p>
                                    <!-- <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
@@ -315,7 +335,7 @@
                         <div class="content">
                             <div class="item">                      
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i> Master of Systems Science</h3>
-                                <h4 class="university">University of Ottawa <span class="year">(2019-2020)</span></h4>
+                                <h4 class="university">University of Ottawa | GPA: 3.87/4 <span class="year">(2019-2020)</span></h4>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i> Bachelors in Computer Engineering</h3>
